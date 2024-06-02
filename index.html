@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        background-color: beige;
+        font-size: larger;
+      }
+
+      #div1 {
+        color: blue;
+      }
+
+      #div2 {
+        color: orange;
+      }
+
+      #p1 {
+        font-size: small;
+      }
+
+      .flexbox-container {
+        width: 50%;
+        height: 300px;
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+      }
+
+      .flex-child {
+        width: 30%;
+        height: 30%px;
+        background-color: blue;
+        padding: 2px;
+      }
+
+      .parent-cont {
+        color: green;
+        font-size: large;
+        height: 200px;
+        width: 600px;
+        text-align: center;
+      }
+
+      .parent-cont div {
+        height: 50%;
+        width: 300px;
+      }
+
+      .parent-cont {
+        display: flex;
+        flex-wrap: wrap-reverse;
+      }
+
+      .child1 {
+        background-color: orangered;
+      }
+
+      .child2 {
+        background-color: yellowgreen;
+      }
+
+      .child3 {
+        background-color: blue;
+      }
+
+      .flex-c {
+        background-color: black;
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-c div {
+        background-color: #f1f1f1;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .flex-p {
+        background-color: black;
+        display: flex;
+        height: 200px;
+        align-items: end;
+        justify-content: end;
+      }
+
+      .flex-p div {
+        background-color: #f1f1f1;
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .flex-p1 {
+        background-color: black;
+        display: flex;
+        height: 600px;
+        width: 400px;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+      }
+
+      .flex-p1 div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body style="font-family: courier">
+    <h1
+      style="
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        color: rgb(255, 99, 71);
+        text-align: center;
+      "
+    >
+      My html doc
+    </h1>
+    <i class=""></i>
+    <p>hello world 222</p>
+    <p>hihihi</p>
+    <div class="form" id="div1">
+      <form>
+        <label for="fname">First Name:-</label>
+        <input id="fname" name="firstname" type="text" />
+        <br /><br />
+        <label for="lname">Last Name:-</label>
+        <input id="lname" name="lastname" type="text" />
+        <br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+    <p style="color: grey">
+      Hi! My name is <strong>Pratyush</strong> You can visit my profile
+      <a href="https://www.google.com/">here</a>.
+    </p>
+    <p
+      style="
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100%;
+        color: #3bc456;
+        width: 40%;
+        height: 400px;
+        border: 5px dashed #000000;
+        overflow: scroll;
+        background-color: grey;
+      "
+    >
+      <i>Contrary to popular belief, Lorem Ipsum is not simply random text.</i>
+      It has roots in a piece of classical Latin literature from 45 BC, making
+      it over 2000 years old. <br />Richard McClintock, a Latin professor at
+      Hampden-Sydney <br />
+      College in Virginia, looked up one of the more obscure Latin words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of
+      the word in classical literature, discovered the undoubtable source. Lorem
+      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+      book is a treatise on the theory of ethics, very popular during the
+      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32.
+    </p>
+
+    <p>What is 2<sup>2</sup>: 4</p>
+    <p>What is log<sub>2</sub>2: 1</p>
+
+    <pre>
+        <em>My name is Pratyush!</em>   hey there again!!
+        <small>I work for <mark>google</mark>!!</small>
+    </pre>
+
+    <p>My favourite movie is <del>Fallout</del> Godfather.</p>
+
+    <hr />
+
+    <img
+      src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+      alt="facebook_logo"
+      width="50px"
+      height="50px"
+    />
+    <button>Click me</button>
+
+    <h2>An unordered list</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+      <li>Ordered Item 1</li>
+      <li>Ordered Item 2</li>
+      <li>Ordered Item 3</li>
+    </ol>
+
+    <h4>Your name:</h4>
+
+    <h1>Form</h1>
+
+    <form>
+      <label for="fname">First Name:-</label>
+      <input id="fname" name="firstname" type="text" />
+      <br /><br />
+      <label for="lname">Last Name:-</label>
+      <input id="lname" name="lastname" type="text" />
+      <br /><br />
+      <input type="submit" />
+    </form>
+    <hr />
+    <div class="form" id="div2">
+      <p id="p1">Hey!! whatsup??</p>
+      <p id="p2">im good!</p>
+      <p id="p3">how r u?</p>
+
+      <form>
+        <label for="fname">First Name:-</label>
+        <input id="fname" name="firstname" type="text" />
+        <br /><br />
+        <label for="lname">Last Name:-</label>
+        <input id="lname" name="lastname" type="text" />
+        <br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="flexbox-container">
+      <div class="flex-child">flex child 1</div>
+      <div class="flex-child">flex child 2</div>
+      <div class="flex-child">flex child 3</div>
+      <div class="flex-child">flex child 4</div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="parent-cont">
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="flex-c">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="flex-p">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="flex-p1">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+    </div>
+
+    <div>
+      <div>
+        <p>hello world 1</p>
+      </div>
+      <p>Hey there!</p>
+      <p>Another para</p>
+      <p>Another para 222</p>
+    </div>
+
+    <h1>Margins</h1>
+    <div
+      style="
+        min-width: 500px;
+        height: 400px;
+        margin: 50px 20px 0 0;
+        border: 1px solid blue;
+        outline: green solid 20px;
+        padding: 70px 30px;
+      "
+    >
+      College in Virginia, looked up one of the more obscure Latin words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of
+      the word in classical literature, discovered the undoubtable source. Lorem
+      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+      book is a treatise on the theory of ethics, very popular during the
+      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32.
+    </div>
+
+    <h1>Tables</h1>
+
+    <table id="table1">
+      <tr>
+        <th>Employee</th>
+        <th>Department</th>
+        <th>Number</th>
+      </tr>
+      <tr>
+        <td>Alex jones</td>
+        <td>CSE</td>
+        <td>9338224232</td>
+      </tr>
+      <tr>
+        <td>User1</td>
+        <td>ECE</td>
+        <td>3243432321</td>
+      </tr>
+    </table>
+  </body>
+</html>

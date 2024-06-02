@@ -1,0 +1,38 @@
+body {
+  /* background-color: aqua;
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right; */
+  background: aqua
+    url("https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*")
+    fixed no-repeat right;
+}
+
+.form {
+  background-color: blue;
+  font-size: larger;
+}
+
+p {
+  background-color: black;
+}
+
+#child1 {
+}
+
+#table1 {
+  width: 100%;
+  background-color: beige;
+  border: 2px solid blue;
+}
+
+#table1 td,
+#table1 th {
+  border: 1px solid green;
+  padding: 2px;
+}
+
+#table1 th {
+  background-color: greenyellow;
+}
